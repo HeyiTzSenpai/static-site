@@ -1,7 +1,7 @@
-from textnode import TextNode
+from textnode import TextNode, TextType
 
 def main():
-    textnode1 = TextNode("hello", "normal")
+    textnode1 = TextNode("hello", TextType.BOLD)
     print(repr(textnode1))
 
 
