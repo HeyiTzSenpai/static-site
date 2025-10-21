@@ -1,4 +1,4 @@
-from textnode import TextNode, TextType
+from src.textnode import TextNode, TextType
 
 def main():
     textnode1 = TextNode("hello", TextType.BOLD)
